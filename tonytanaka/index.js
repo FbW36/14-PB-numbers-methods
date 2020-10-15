@@ -1,11 +1,12 @@
 // Question 1
 // NaN stands for Not-A-Number
 let ex1a = "hello" * 1;
-console.log(typeof ex1a);
+console.log("Is 'hello * 1' a NaN? =", isNaN(ex1a));
+console.log("The data type of 'hello * 1' is", typeof ex1a);
 let ex1b = "100em";
-console.log(isNaN(ex1b));
-console.log(typeof NaN);
-// The type of NaN is number
+console.log("Is '100em' a NaN? =", isNaN(ex1b));
+console.log("The data type of NaN is", typeof NaN);
+// The data type of NaN is number
 
 // Question 2
 console.log((0.1 * 0.2).toFixed(2));
