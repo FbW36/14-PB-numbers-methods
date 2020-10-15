@@ -1,6 +1,6 @@
 // 1
 // NaN stands for Not a Number
-let value = "hello";
+let value = "hello" * 1;
 console.log(isNaN(value));
 
 let value1 = "100em";
