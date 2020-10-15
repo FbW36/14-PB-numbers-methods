@@ -5,7 +5,7 @@
 #### 1. NaN
 **Question: Comment your answer in your js file**: What does NaN stand for? 
 * Check if "hello" * 1 is NaN. 
-* Check if `100em` is NaN.
+* Check if "100em" is NaN.
 * What is the type of NaN?
 
 #### 2. Rounding 
