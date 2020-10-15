@@ -3,10 +3,10 @@
 // not a number
 
 // * Check if "hello" * 1 is NaN.
-console.log("hello" * 1 === NaN); // false
+console.log(isNaN("hello" * 1)); // true
 
 // * Check if `100em` is NaN.
-console.log("100em" === NaN); // false
+console.log(isNaN("100em")); // true
 
 // * What is the type of NaN?
 console.log(typeof NaN); //number
