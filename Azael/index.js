@@ -7,9 +7,9 @@
 
 let hello = "hello";
 
-let checkHello = isNaN(hello);
+let checkHello = isNaN(hello * 1);
 
-console.log("Is hello not a number? ==>", checkHello);
+console.log("Is hello * 1 not a number? ==>", checkHello);
 
 // Check if "100em" is NaN.
 
