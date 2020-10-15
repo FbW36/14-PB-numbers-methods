@@ -8,7 +8,7 @@ console.log(isNaN(str1*1)); // true
 let str2 = "100em"
 console.log(isNaN(str2)); // true
 
-console.log(typeof isNaN()); //boolean
+console.log(typeof NaN); //number
 
 // 2.
 console.log(0.1 * 0.2);
