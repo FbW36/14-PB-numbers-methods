@@ -1,17 +1,18 @@
 // 1. NaN
 // Question: Comment your answer in your js file: What does NaN stand for?
-
+// Not a number, so any datatype that is not number
 //NaN stands for Not a Number, that means any other data types.
 
 //Check if "hello" * 1 is NaN.
 let var1 = "Hello";
-console.log("is hello NaN: " + isNaN(var1));
+console.log("is hello x 1 NaN: " + isNaN(var1 * 1));
 
 // Check if 100em is NaN.
 let var2 = "100em";
 console.log("chech if 100em is Nan: " + isNaN(var2));
 // What is the type of NaN?
-//Is it a string
+console.log(typeof NaN);
+//number somehow
 
 
 // 2. Rounding
