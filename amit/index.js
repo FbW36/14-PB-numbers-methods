@@ -6,7 +6,7 @@ let num = "100em";
 
 console.log(isNaN(num));
 
-//NaN is type of number
+console.log(typeof NaN);
 
 // ------------------------
 
