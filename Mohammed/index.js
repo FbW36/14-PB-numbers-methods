@@ -2,17 +2,13 @@
 // 1. NaN
 
 // a-
-// NaN stands for 'Not A Number'
+console.log(`NaN stands for 'Not A Number'`); 
 
 // b-
-let checkForNaN = 'hello' * 1;
-console.log((checkForNaN !== NaN) ? 
-`The expression ("hello" * 1) is a ${checkForNaN}` : `The expression ("hello" * 1) is a ${checkForNaN}`);
+console.log(`This expression ("hello" * 1) is a NaN ==> ${isNaN("hello" * 1)}`);
 
 // c-
-checkForNaN = '100em' *1;
-console.log((checkForNaN !== NaN) ? 
-`The expression '100em' is a ${checkForNaN}` : `The expression '100em' is a ${checkForNaN}`);
+console.log(`This expression ("100em") is a NaN ==> ${isNaN('100em')}`);
 
 // d- 
 console.log(`The type of NaN is ${typeof NaN} and it returns a ${typeof !!NaN} value`);
@@ -38,5 +34,5 @@ console.log(numberWithRoundedFraction);
 
 // c-
 numberWithFloatingFraction = 1.842220;
-numberWithRoundedFraction = numberWithFloatingFraction.toFixed(6);
+numberWithRoundedFraction = numberWithFloatingFraction.toFixed(4);
 console.log(numberWithRoundedFraction);
